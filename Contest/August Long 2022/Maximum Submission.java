@@ -6,11 +6,7 @@ class MaximumSub{
         int testcase = input.nextInt();
         while(testcase-- > 0){
             int min = input.nextInt();
-            if(min >= 29){
-                System.out.println("0");
-            }else{
-                System.out.println(min * 2);
-            }
+            System.out.println(min * 2);
         }
     }
 }
