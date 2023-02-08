@@ -5,7 +5,11 @@ class Permutation_and_Modulus {
     public static void main(String[] args) {
         int testcase = input.nextInt();
         while (testcase-- > 0) {
-            
+            int n = input.nextInt();
+            for (int i = 2; i <= n; i++) {
+                System.out.print(i+" ");
+            }
+            System.out.println(1);
         }
     }
 }
